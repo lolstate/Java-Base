@@ -1,8 +1,8 @@
-# user-java-service
-auth service by Java Spring Boot
+# base-java-service
+base service by Java Spring Boot
 
 # Overview
-User Java Service
+Base Java Service
 
 ## Prerequisites
 - [JDK] 11 or higher
@@ -17,7 +17,7 @@ User Java Service
 
 # Project Structure
 ```
-user-service-java
+base-service-java
 ├── .gitignore
 ├── .mvn
 │   └── wrapper
