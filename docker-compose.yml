@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  auth-db:
+    image: mysql:8.0
+    cap_add:
+      - SYS_NICE
+    container_name: auth-db
+    environment:
+      MYSQL_DATABASE: root
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
